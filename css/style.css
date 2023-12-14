@@ -37,16 +37,21 @@ header {
 
 .header_link:hover {
     color: #ED6C30;
-    transition-duration: 0.5s;
+    transition-duration: .5s;
 }
 
 .active {
     color: #ED6C30;
 }
 
+.bag_icon {
+    cursor: pointer;
+    transition: transform .8s ease-in-out;
+}
+
 .bag_icon:hover {
-    rotate: 360deg;
-    transition-duration: 0.8s;
+    transform: rotate(360deg);
+    transition-duration: .8s;
 }
 
 /* COVER */
@@ -92,6 +97,7 @@ header {
     font-weight: 700;
     line-height: 28px;
     padding: 12px 38px;
+
 }
 
 .section_1_btn:hover {
